@@ -1,4 +1,6 @@
 import streamlit as st
+import os
+os.system('pip install joblib')
 import joblib as jb
 import tensorflow as tf
 from tensorflow.keras.preprocessing.sequence import pad_sequences
